@@ -1,0 +1,88 @@
+/* color */
+/* #33EFBB */
+
+
+*, *:before, *:after{
+    box-sizing: border-box;
+    margin: 0 0;
+    /* padding: 2em; */
+}
+/* body class in home */
+.body{
+ padding: 1em;
+}
+
+
+ .row{
+    display: flex;
+    align-items: center;
+}
+
+.row .col-2{
+    box-shadow:  0 0 20px  #ccc;
+    width: 60vw;
+    height: 20vh;
+    padding: 2em;
+    
+}
+
+.about .row .col-1{
+    width: 30vw;
+    height: 40vh;
+  background: url(../assets/svg/about.svg) center no-repeat;
+  background-size:contain;
+  
+  box-shadow:  0 0 20px  #ccc;
+  box-sizing: border-box;
+  }
+  .services{
+    margin-top: 2em;
+  }
+  .services .row .col-1{
+    width: 30vw;
+    height: 40vh;
+  background: url(../assets/svg/services.svg) center no-repeat;
+  background-size:contain;
+  
+  box-shadow:  0 0 20px  #ccc;
+  box-sizing: border-box;
+  }
+
+  /* For Quotes.vue Slot  */
+  #quotes{
+    padding: 4em;
+    /* color: #33EFBB */
+    line-height: 1.5em;
+  }
+
+  #quotes .title{
+    color: #33EFBB;
+}
+/* container to denote Border */
+/* found in the components/container.vue */
+.container{
+  border: 2px solid black;
+}
+.row-2{
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.row-2 .col-2{
+  box-shadow:  0 0 20px  #ccc;
+  width: 60vw;
+  height: 20vh;
+  padding: 2em;
+  
+}
+
+.services .row-2 .col-1{
+  width: 30vw;
+  height: 40vh;
+background: url(../assets/svg/app.svg) center no-repeat;
+background-size:contain;
+
+box-shadow:  0 0 20px  #ccc;
+box-sizing: border-box;
+}

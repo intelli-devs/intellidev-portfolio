@@ -1,6 +1,6 @@
 <template>
     <div id="container">
-kdkdkk
+
     </div>
 </template>
 <style scoped>

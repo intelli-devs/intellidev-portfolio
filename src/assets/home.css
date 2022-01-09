@@ -6,10 +6,16 @@
     box-sizing: border-box;
     margin: 0 0;
     /* padding: 2em; */
+    font-family: Montserrat;
 }
 /* body class in home */
 .body{
- padding: 1em;
+ padding-top: 4em;
+}
+.services h2{
+  color: #33EFBB;
+  font-weight: lighter;
+  font-size: large;
 }
 
 
@@ -21,8 +27,10 @@
 .row .col-2{
     box-shadow:  0 0 20px  #ccc;
     width: 60vw;
-    height: 20vh;
+    height: fit-content;
     padding: 2em;
+    word-wrap: break-word;
+    word-break: break-all;
     
 }
 
@@ -61,7 +69,7 @@
 /* container to denote Border */
 /* found in the components/container.vue */
 .container{
-  border: 2px solid black;
+  border: 2px solid white;
 }
 .row-2{
   margin-top: 2em;
@@ -72,17 +80,43 @@
 .row-2 .col-2{
   box-shadow:  0 0 20px  #ccc;
   width: 60vw;
-  height: 20vh;
+  height: fit-content;
   padding: 2em;
+  word-wrap: break-word;
+  word-break: break-all;
   
 }
 
 .services .row-2 .col-1{
   width: 30vw;
   height: 40vh;
-background: url(../assets/svg/app.svg) center no-repeat;
-background-size:contain;
+  background: url(../assets/svg/app.svg) center no-repeat;
+  background-size:contain;
 
-box-shadow:  0 0 20px  #ccc;
-box-sizing: border-box;
+  box-shadow:  0 0 20px  #ccc;
+  box-sizing: border-box;
+}
+
+#btn a{
+  color: rgb(255, 255, 255);
+  height: fit-content;
+  width:fit-content;
+}
+#btn{
+  background-color:#33efbaa9;
+  border: none;
+  padding: 0.5em 0.8em;
+
+  border-radius: 1em;
+}
+
+ a{
+  text-decoration: none;
+}
+.about a, .services a, .news a{
+  color: #33EFBB;
+}
+
+.head h2{
+  color: aliceblue;
 }

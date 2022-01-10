@@ -71,12 +71,12 @@ strong{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top:em ;
+        /* padding-top:em ; */
         /* max-height: 40px; */
         
     }
     .footer .box{
-    width: calc(100vw/3);
+    width: 80vw;
     padding:.5em 2em 0 2em;
     word-wrap: break-word;
     line-height: 1.5em;

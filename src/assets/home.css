@@ -70,7 +70,7 @@
 /* container to denote Border */
 /* found in the components/container.vue */
 .container{
-  border: 2px solid white;
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 .row-2{
   margin-top: 2em;

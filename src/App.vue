@@ -4,6 +4,7 @@
       <img src="./assets/img/logo.jpg" alt="logo">
     </div>
     <div class="nav-links">
+      
  <router-link :to="{name:'Home'}">Home</router-link>
     <router-link :to="{name:'About'}">About-us</router-link> 
     <router-link :to="{name:'Services'}">Services</router-link> 
@@ -28,7 +29,6 @@
 #nav {
   display: flex;
   padding: .3em 0;
-  border:2px solid black;
   justify-content:space-around;
   align-items: center;
 }
@@ -53,8 +53,12 @@
 @media screen and (max-width: 640px){
   #nav{
     display: inline-block;
-    
-   
+  }
+  #nav #logo img{
+  width: 10vw;
+  border-radius:1vh 100vw;
+  height: 5em;
+  align-items: center; 
   }
   .nav-links{
     display: flex;
@@ -67,3 +71,9 @@
   }
 }
 </style>
+<script>
+import "./assets/main.css"
+export default{
+  
+}
+</script>

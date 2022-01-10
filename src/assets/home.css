@@ -9,12 +9,13 @@
     font-family: Montserrat;
 }
 /* body class in home */
-.body{
+.body {
  padding-top: 4em;
+ margin: 0 1em;
+ 
 }
 .services h2{
   color: #33EFBB;
-  font-weight: lighter;
   font-size: large;
 }
 

@@ -71,6 +71,7 @@ strong{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top:em ;
         /* max-height: 40px; */
         
     }

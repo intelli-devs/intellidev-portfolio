@@ -15,7 +15,6 @@ export default {
 </script>
 <style scoped>
 .header {
-  border: 1px solid black;
   padding: 4.5rem 1rem;
   line-height: 3em;
   z-index: 1;

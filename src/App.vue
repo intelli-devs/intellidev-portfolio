@@ -4,7 +4,7 @@
       <div id="logo">
       <img  src="./assets/img/logo.jpg" alt="logo" />
     </div>
-    <h3 @click="toggleMenu()" v-show="sc" class="menu-btn btn" >Menu <img v-show="!showMenu" src="./assets/svg/menu-mobile.svg" alt="menu-btn"> <img v-show="showMenu" src="./assets/svg/menu-close.svg" alt=""></h3> 
+    <h3 @click="toggleMenu()" v-show="isMobile" class="menu-btn btn" >Menu <img v-show="!showMenu" src="./assets/svg/menu-mobile.svg" alt="menu-btn"> <img v-show="showMenu" src="./assets/svg/menu-close.svg" alt=""></h3> 
     </div> 
    <span class="menu-span"> <div v-show="showMenu"  :class="['menu']" class="nav-links menu-span">
       <router-link :to="{ name: 'Home' }">Home</router-link>

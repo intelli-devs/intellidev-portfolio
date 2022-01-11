@@ -9,7 +9,7 @@
       <p class="input">
         <input type="text" placeholder="Enter email..." name="Email" />
         <label for="Email"></label>
-        <Button>
+        <Button class="btn">
           <router-link :to="{ name: 'Services' }">
             Services
           </router-link></Button
@@ -27,7 +27,11 @@ export default {
 
 <style >
 #news input{
-    opacity: 0.3;
+    opacity: 0.9;
+    color: azure;
+    height: 3em;
+    background: #000;
+    border: none;
 }
 #news {
   width: 100vw;
@@ -48,6 +52,9 @@ a {
 }
 #news .input{
     margin-top: 1em;
+}
+.input .btn{
+  height: 3em;
 }
 
 </style>

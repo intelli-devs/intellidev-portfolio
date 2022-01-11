@@ -6,7 +6,7 @@
     </div>
     <h3 @click="toggleMenu()" v-show="isMobile" class="menu-btn btn" >Menu <img v-show="!showMenu" src="./assets/svg/menu-mobile.svg" alt="menu-btn"> <img v-show="showMenu" src="./assets/svg/menu-close.svg" alt=""></h3> 
     </div> 
-   <span class="menu-span"> <div v-show="showMenu"  :class="['menu']" class="nav-links menu-span">
+   <span class="menu-span"> <div v-show="showMenu || scSize>640"  :class="['menu']" class="nav-links menu-span">
       <router-link :to="{ name: 'Home' }">Home</router-link>
       <router-link :to="{ name: 'About' }">About-us</router-link>
       <router-link :to="{ name: 'Services' }">Services</router-link>
@@ -44,6 +44,9 @@
 }
 #nav a.router-link-exact-active {
   color: #42b983;
+  background: rgb(223, 224, 226);
+  transition: ease-in-out .3s;
+ 
 }
 #logo img {
   width: 10vw;
@@ -75,7 +78,7 @@
 
   #nav #logo img {
     /* float: left;
-    transform: translate(-150px,0px); */
+    transform: translate(-150px,0px);  */
     width: 10vw;
     border-radius: 100vw 100vw;
     height: 2em;

@@ -11,7 +11,7 @@
 /* body class in home */
 .body {
  padding-top: 4em;
- margin: 0 1em;
+ margin: 0 0;
  
 }
 .services h2{
@@ -120,4 +120,8 @@
 
 .head h2{
   color: aliceblue;
+}
+#logo{
+ margin: 0 auto;
+ 
 }

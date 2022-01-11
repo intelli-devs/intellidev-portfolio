@@ -1,13 +1,14 @@
 <template>
-  <h1>This is the Contact page</h1>
+ <div class="about m-52">
+    <Header title="Contact-Us"/>
+  </div>
 </template>
-
 <script>
+import Header from "../components/Header.vue";
 export default {
-
+  components: { Header },
+  setup() {
+    
+  },
 }
 </script>
-
-<style>
-
-</style>

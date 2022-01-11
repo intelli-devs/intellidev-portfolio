@@ -33,6 +33,7 @@
   display: flex;
   align-items:stretch;
   justify-content: space-evenly;
+  padding: 1em;
 }
 .footer .service{
   word-wrap: break-word;
@@ -56,10 +57,10 @@ h3{
     color:#33EFBB;
 }
 #copyright{
-    color: white;
+    color: black;
     left: 0;
     right: 0;
-    background: rgb(80, 77, 71);
+    background: rgb(223, 224, 226);;
     font-weight: 300;
   
 }
@@ -73,11 +74,14 @@ strong{
         align-items: center;
         /* padding-top:em ; */
         /* max-height: 40px; */
+        gap: 2em;
+        
+        
         
     }
     .footer .box{
     width: 80vw;
-    padding:.5em 2em 0 2em;
+    padding:.5em 2em 22em 2em;
     word-wrap: break-word;
     line-height: 1.5em;
     padding: 0;

@@ -1,13 +1,14 @@
 <template>
-  <h1>This is the Members Page</h1>
+  <div class="about m-52">
+    <Header title="Members"/>
+  </div>
 </template>
-
 <script>
+import Header from "../components/Header.vue";
 export default {
-
+  components: { Header },
+  setup() {
+    
+  },
 }
 </script>
-
-<style>
-
-</style>

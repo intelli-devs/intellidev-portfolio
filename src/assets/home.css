@@ -14,6 +14,11 @@
  margin: 0 0;
  
 }
+@media screen and (max-width: 640px){
+  .header{
+    margin: 80em;
+  }
+}
 .services h2{
   color: #33EFBB;
   font-size: large;
@@ -70,6 +75,7 @@
 /* container to denote Border */
 /* found in the components/container.vue */
 .container{
+  border: none;
   /* border: 2px solid rgb(0, 0, 0); */
 }
 .row-2{

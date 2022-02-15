@@ -14,11 +14,13 @@ export default {
 };
 </script>
 <style scoped>
+
 .header {
-  padding: 4.5rem 1rem;
+  padding-top: 7em;
+  padding: 5rem 1rem;
   line-height: 3em;
   z-index: 1;
-  margin: 0;
+  margin: 0 0 0 0;
 }
 
 .header .text h1{
@@ -27,7 +29,7 @@ export default {
 }
 
 .header {
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../assets/img/header.jpg);
   background-size: cover;

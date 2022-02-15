@@ -15,7 +15,7 @@
     </div></span>
   </div>
 
-  <router-view />
+  <div class="router-view"><router-view /></div>
 </template>
 
 <style scr="./assets/tailwind.css">
@@ -28,6 +28,7 @@
 }
 
 #nav {
+  z-index: 100;
   display: flex;
   padding: 0.3em 0;
   justify-content: space-around;
@@ -36,7 +37,7 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: rgb(17, 14, 14);
   padding: 0 1em;
 }
 .nav-links {
@@ -44,7 +45,7 @@
 }
 #nav a.router-link-exact-active {
   color: #42b983;
-  background: rgb(223, 224, 226);
+  background: rgba(13, 13, 14, 0.1);
   transition: ease-in-out .3s;
  
 }
@@ -55,6 +56,16 @@
   align-items: center;
 }
 @media screen and (max-width: 640px) {
+ 
+  .menu-btn img{
+size: 4em;
+color: white;
+width: 6vw;
+
+  }
+  #head{
+    padding: 0.4em 2em;
+  }
   .menu-btn{
     cursor: pointer;
     display: flex;
@@ -64,7 +75,13 @@
     gap: 0.5em;
   }
   #nav {
+    left: 0;
+    right: 0;
     display: inline-block;
+    scroll-behavior: smooth;
+    position: fixed;
+    /* transform: translate(-150px); */
+    background: rgb(107, 105, 104);
   }
   #head{
   display: flex;

@@ -11,7 +11,8 @@
 /* body class in home */
 .body {
  padding-top: 4em;
- margin: 0 0;
+ /* margin: 0 0; */
+ overflow: hidden;
  
 }
 @media screen and (max-width: 640px){
@@ -31,7 +32,8 @@
 }
 
 .row .col-2{
-    box-shadow:  0 0 20px  #ccc;
+  z-index: -1;
+    box-shadow:  6px 2px 10px  #ccc;
     width: 60vw;
     height: fit-content;
     padding: 2em;
@@ -41,25 +43,44 @@
 }
 
 .about .row .col-1{
+  z-index: 10;
     width: 30vw;
     height: 40vh;
   background: url(../assets/svg/about.svg) center no-repeat;
   background-size:contain;
   
-  box-shadow:  0 0 20px  #ccc;
+  box-shadow:  -10px 1px 20px  #ccc;
   box-sizing: border-box;
   }
   .services{
     margin-top: 2em;
   }
   .services .row .col-1{
+    z-index: 10;
     width: 30vw;
     height: 40vh;
   background: url(../assets/svg/services.svg) center no-repeat;
   background-size:contain;
   
-  box-shadow:  0 0 20px  #ccc;
+  box-shadow:  -10px 1px 20px  #ccc;
   box-sizing: border-box;
+  }
+
+  .services .row-3 .col-1{ 
+    background: url(../assets/svg/service-02.svg) center no-repeat;
+    width: 30vw;
+    height: 40vh;
+    background-size:contain;
+  }
+
+ 
+  /* the style for the service page row-2 row 4 col-1  */
+  .services .row-2.row-4 .col-1{ 
+    background: url(../assets/svg/service-01.svg) right no-repeat;
+    background-size: contain;
+    width: 30vw;
+    height: 40vh;
+    /* box-shadow:  0 0 20px  #ccc; */
   }
 
   /* For Quotes.vue Slot  */
@@ -85,6 +106,7 @@
 }
 
 .row-2 .col-2{
+  z-index: -2;
   box-shadow:  0 0 20px  #ccc;
   width: 60vw;
   height: fit-content;
@@ -95,12 +117,13 @@
 }
 
 .services .row-2 .col-1{
+  z-index: 10;
   width: 30vw;
   height: 40vh;
   background: url(../assets/svg/app.svg) center no-repeat;
   background-size:contain;
 
-  box-shadow:  0 0 20px  #ccc;
+  box-shadow:  6px 0 10px #ccc;
   box-sizing: border-box;
 }
 

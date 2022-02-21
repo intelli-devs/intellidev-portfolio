@@ -1,0 +1,30 @@
+/* The  */
+.container .card{
+    width: 20vw;
+    padding: 4em;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    box-shadow: 1px 5px 3px;
+    border-radius: 0.6em 0.6em;
+    color: black;
+    background: #33efba;
+}
+    
+ .mem .container{
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-direction: row; */
+    /* transition: 1s; */
+    /* grid-auto-flow:row; */
+    /* grid-template-columns: repeat(auto-fill, 25%); */
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    gap: 3em;
+
+}
+/* Hover for the container */
+.mem .container :hover{
+    transition: ease-in-out .3s;
+    transform: scale(1.03, 1.03);
+    cursor: pointer;
+}

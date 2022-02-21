@@ -13,7 +13,7 @@
       <router-link :to="{ name: 'Members' }">Members</router-link>
       <router-link :to="{ name: 'Contact' }">Contact</router-link>
     </div></span>
-  </div>
+  </div> 
 
   <div class="router-view"><router-view /></div>
 </template>
@@ -44,10 +44,10 @@
   padding: 0 0em;
 }
 #nav a.router-link-exact-active {
-  color: #42b983;
-  background: rgba(13, 13, 14, 0.1);
+  color: #12e9ac;
+  /* background: rgba(13, 13, 14, 0.1); */
   transition: ease-in-out .3s;
- 
+ /* transform: scale(5, 8); */
 }
 #logo img {
   width: 10vw;

@@ -4,7 +4,7 @@
       <h3>Services</h3>
 
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi minus
-      vitae a dolore repellendus explicabo quasi quod minima animi!
+      vitae a dolore repellendus explicabo quasi quod minima animi! <hr>
     </div>
     <div class="quick-links container box">
       <h3>Quick Links</h3>
@@ -14,11 +14,13 @@
       <router-link :to="{ name: 'Services' }">Services</router-link>
       <router-link :to="{ name: 'Members' }">Members</router-link>
       <router-link :to="{ name: 'Contact' }">Contact</router-link>
+      <hr>
     </div>
 
     <div class="insta container box">
-      <h3>Instagram</h3>
+      <h3>Instagram</h3> <hr>
     </div>
+
     <div class="more-info container box">
       <h3>More Info</h3>
 
@@ -28,7 +30,7 @@
         <a href="http://id-portfolio001.herokuapp.com"
           >id-portfolio001.herokuapp.com</a
         >
-      </p>
+      </p> <hr>     
     </div>
   </div>
   <h4 id="copyright">
@@ -102,7 +104,7 @@ strong {
     padding: 0;
     text-align: center;
     /* justify-content: right; */
-    max-height: 40vh;
+    max-height: max-content;
   }
 }
 @media screen and (min-width: 768px) {

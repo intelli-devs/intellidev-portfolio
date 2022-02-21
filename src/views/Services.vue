@@ -50,6 +50,11 @@
     </div>
     <Footer></Footer>
 </template>
+<style scoped>
+.services{
+  overflow: hidden;
+}
+</style>
 <script>
 import Header from "../components/Header.vue";
 import Quotes from '../components/Quotes.vue';

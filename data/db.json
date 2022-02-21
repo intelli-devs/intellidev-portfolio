@@ -1,0 +1,138 @@
+{
+    "members": [ 
+        {
+            "id": 1,
+            "name": "Fru Boris",
+            "function": "Techhead-Full Stack",
+            "Skills": [
+              "Java",
+              "HTML",
+              "CSS",
+              "Javascript",
+              "Vue.js",
+              "PHP",
+              "Photoshop",
+              "Adobe XD",
+              "Figma"
+            ],
+            "image": "",
+            "about":
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste possimus rerum vero dignissimos deserunt? Omnis dolores deleniti facilis. Praesentium accusamus amet error debitis mollitia rerum, suscipit, corporis aperiam impedit nisi nam aspernatur unde reprehenderit earum voluptatem dolore veniam repellendus! Veritatis magnam iusto explicabo sint veniam itaque fuga libero voluptatem facere.",
+            "into": "Web Development",
+            "socials": [
+              {
+                "fb": "http://m.facebook.com/fru.boris.3",
+                "tweet": "http://twitter.com/fruboris3",
+                "github": "http://github.com/TechGeek-FB",
+                "insta": "http://instagram.com/fru_boris",
+                "email": "http://mailto:intellidevs5@gmail.com"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Wuyika Serge Kevin",
+            "function": "Full Stack",
+            "Skills": ["Java", "HTML", "CSS", "Javascript", "Vue.js", "PHP"],
+            "image": "",
+            "about":
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste possimus rerum vero dignissimos deserunt? Omnis dolores deleniti facilis. Praesentium accusamus amet error debitis mollitia rerum, suscipit, corporis aperiam impedit nisi nam aspernatur unde reprehenderit earum voluptatem dolore veniam repellendus! Veritatis magnam iusto explicabo sint veniam itaque fuga libero voluptatem facere.",
+            "into": "Web and App Development",
+            "socials": [
+              {
+                "fb": "http://m.facebook.com/",
+                "tweet": "http://twitter.com/",
+                "github": "http://github.com/",
+                "insta": "http://instagram.com/",
+                "email": "http://mailto:@gmail.com"
+              }
+            ]},
+
+          {
+            "id": 3,
+            "name": "Njokom Alain Jr",
+            "function": "Full Stack",
+            "Skills": [
+              "Flutter",
+              "HTML",
+              "CSS",
+              "Vue.js",
+              "PHP",
+              "Laravel",
+              "Firebase, MySQL"
+            ],
+            "image": "",
+            "about":
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste possimus rerum vero dignissimos deserunt? Omnis dolores deleniti facilis. Praesentium accusamus amet error debitis mollitia rerum, suscipit, corporis aperiam impedit nisi nam aspernatur unde reprehenderit earum voluptatem dolore veniam repellendus! Veritatis magnam iusto explicabo sint veniam itaque fuga libero voluptatem facere.",
+            "into": "Web and App Development",
+            "socials": [
+              {
+                "fb": "http://m.facebook.com/",
+                "tweet": "http://twitter.com/",
+                "github": "http://github.com/",
+                "insta": "http://instagram.com/",
+                "email": "http://mailto:@gmail.com"
+              }
+            ]
+          },
+
+          {
+            "id": 4,
+            "name": "Nkemta Derick Wirnkar",
+            "function": "Youtuber",
+            "Skills": ["Photoshop", "Video Editor"],
+            "image": "",
+            "about":
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste possimus rerum vero dignissimos deserunt? Omnis dolores deleniti facilis. Praesentium accusamus amet error debitis mollitia rerum, suscipit, corporis aperiam impedit nisi nam aspernatur unde reprehenderit earum voluptatem dolore veniam repellendus! Veritatis magnam iusto explicabo sint veniam itaque fuga libero voluptatem facere.",
+            "into": "Web and App Development",
+            "socials": [
+              {
+                "fb": "http://m.facebook.com/",
+                "tweet": "http://twitter.com/",
+                "github": "http://github.com/",
+                "insta": "http://instagram.com/",
+                "email": "http://mailto:@gmail.com"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Kwo mwofor Hanniel",
+            "function": "Designer",
+            "Skills": ["Photoshop", "MySQL"],
+            "image": "",
+            "about":
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste possimus rerum vero dignissimos deserunt? Omnis dolores deleniti facilis. Praesentium accusamus amet error debitis mollitia rerum, suscipit, corporis aperiam impedit nisi nam aspernatur unde reprehenderit earum voluptatem dolore veniam repellendus! Veritatis magnam iusto explicabo sint veniam itaque fuga libero voluptatem facere.",
+            "into": "Web and App Development",
+            "socials": [
+              {
+                "fb": "http://m.facebook.com/",
+                "tweet": "http://twitter.com/",
+                "github": "http://github.com/",
+                "insta": "http://instagram.com/",
+                "email": "http://mailto:@gmail.com"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Beucheh Maxime",
+            "function": "UI/UX designer",
+            "Skills": ["HTML", "CSS", "Javascript", "Bootstrap", "React-JS"],
+            "image": "",
+            "about":
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste possimus rerum vero dignissimos deserunt? Omnis dolores deleniti facilis. Praesentium accusamus amet error debitis mollitia rerum, suscipit, corporis aperiam impedit nisi nam aspernatur unde reprehenderit earum voluptatem dolore veniam repellendus! Veritatis magnam iusto explicabo sint veniam itaque fuga libero voluptatem facere.",
+            "into": "Web and App Development",
+            "socials": [
+              {
+                "fb": "http://m.facebook.com/",
+                "tweet": "http://twitter.com/",
+                "github": "http://github.com/",
+                "insta": "http://instagram.com/",
+                "email": "http://mailto:@gmail.com"
+              }
+            ]
+          }
+    ]
+
+}

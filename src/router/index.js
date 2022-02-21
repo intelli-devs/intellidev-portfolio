@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Services from '../views/Services.vue'
-import Members from '../views/Members.vue'
+import Members from '../views/Member/Members.vue'
+import MemberDetails from '../views/Member/MemberDetails.vue'
 import Contact from '../views/Contact.vue'
 
 const routes = [
@@ -26,11 +27,19 @@ const routes = [
     name: 'Members',
     component: Members
   },
+  //Member details page
+  {
+    path: '/members/:id',
+    name: 'MemberDetails',
+    component: MemberDetails,
+    props:true
+},
   {
     path: '/contact',
     name: 'Contact',
     component: Contact
   },
+ 
 ]
 
 const router = createRouter({
